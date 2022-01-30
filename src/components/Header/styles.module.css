@@ -1,0 +1,26 @@
+.header {
+  @apply flex justify-between items-center w-full bg-umber fixed;
+
+  z-index: 9999;
+}
+
+.logo {
+ @apply mx-12 my-4 bg-opal p-6 rounded-md;
+ 
+ transition: transform 100ms ease-in-out;
+}
+
+.container_list {
+  @apply flex space-x-4 mx-12 my-4;
+}
+
+.line {
+  @apply p-4 bg-opal rounded-md;
+
+  transition: transform 100ms ease-in-out;
+}
+
+.line:hover, .logo:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
